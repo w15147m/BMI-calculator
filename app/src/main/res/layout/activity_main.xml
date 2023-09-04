@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="body mass index"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/kg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:hint="enter_your_weight"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="24dp" />
+    <EditText
+        android:id="@+id/ft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:hint="@string/enter_your_height_ft"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_border"
+        android:hint="@string/enter_your_height_in"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="24dp" />
+
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/bmi_btn"
+        android:textSize="24dp" />
+    <TextView
+        android:id="@+id/resultnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="bmi"
+        android:textSize="24dp" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="result"
+        android:textSize="24dp" />
+
+
+
+
+
+</LinearLayout>
